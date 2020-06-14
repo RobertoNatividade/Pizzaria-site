@@ -26,6 +26,168 @@ header {
     background-size: cover;
 }
 
+
+/* MENU SOCIAL */
+
+section#social ul {
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: .2rem;
+}
+
+
+/* MENU PRINCIPAL */
+
+.navbar-toggler,
+.custom-toggler.navbar-toggler-icon {
+    border-color: #FFFFFF !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#menu #navbarPrincipal ul li a {
+    margin: 0 1.1rem;
+}
+
+#menu #navbarPrincipal ul li a {
+    border-bottom: 1px solid transparent;
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    padding: 0;
+    text-transform: lowercase;
+}
+
+#menu #navbarPrincipal ul li a:hover,
+#menu #navbarPrincipal ul li.active a {
+    color: var(--color1);
+    border-bottom: 1px solid var(--color1);
+}
+
+img.logo {
+    width: 10rem;
+}
+
+
+/* SLIDE */
+
 img.slide {
     width: 100%;
+}
+
+
+/* CONTEUDO */
+
+section#content .content {
+    background: url('../images/bg_marrom.png') repeat var(--color3);
+}
+
+
+/* MAP */
+
+.bg-white {
+    background: #FFFFFF;
+}
+
+.bg-shadow {
+    box-shadow: 0 9px 0px 0px white, 0 10px 0px 0px white, 12px 0 6px -4px rgba(68, 68, 68, 0.8), -12px 0 6px rgba(68, 68, 68, 0.8);
+}
+
+.bg-yellow {
+    background: url('../images/bg_red.png')repeat var(--color1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.bg-yellow .adress {
+    width: 20rem;
+    height: 6rem;
+}
+
+.bg-yellow .address h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--color2);
+}
+
+
+/* RODA PE */
+
+footer .footer {
+    background: url('../images/bg_white.png') repeat var(--color2);
+}
+
+footer .footer p {
+    color: #FFFFFF;
+}
+
+
+/* A PIZZARIA - A PIZZARIA */
+
+h3.title,
+body.cardapio h5 {
+    text-transform: uppercase;
+    color: var(--color2);
+}
+
+body.pizzaria p,
+body.cardapio p.card-text:first-child {
+    text-align: justify;
+}
+
+
+/* PAGINA CARDAPIO */
+
+.btn-go {
+    background-color: var(--color2);
+    color: #FFFFFF;
+    border-radius: 0;
+}
+
+.btn-go:hover {
+    background-color: var(--color1);
+    color: var(--color2);
+}
+
+.card {
+    border-color: var(--color1);
+}
+
+.card:hover {
+    border-color: var(--color2);
+}
+
+
+/* CONTATO */
+
+.form-control {
+    border: 1px solid var(--color2);
+    border-radius: 0px;
+}
+
+.form-control:focus,
+.form-control:hover {
+    border: 1px solid var(--color1);
+    border-radius: 0px;
+    outline: 0;
+    box-shadow: 0 0 0 0 rgba(0, 123, 255, 0);
+}
+
+@media (min-width: 576px) {
+    /* celular */
+}
+
+@media (min-width: 768px) {
+    /* celular / tablet */
+}
+
+@media (min-width: 992px) {
+    /* pequenas telas */
+}
+
+@media (min-width: 1200px) {
+    /* grandes telas */
 }
